@@ -32,10 +32,17 @@
     margin-left: 20px;
 }
 
-.progress-bar {
+.skills_container .progress-bar {
     width: 0;
     height: 10px;
     background-color: var(--main-brand-color);
+    border-radius: 10px;
+}
+
+.languages_container .progress-bar {
+    width: 0;
+    height: 10px;
+    background-color: var(--secondary-brand-color);
     border-radius: 10px;
 }
 

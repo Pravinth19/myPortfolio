@@ -1,0 +1,5 @@
+footer {
+    background-color: var(--primary-color);
+    color: var(--main-brand-color);
+    padding: 5px;
+}

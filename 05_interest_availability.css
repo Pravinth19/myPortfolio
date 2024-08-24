@@ -1,0 +1,25 @@
+#interest_availability_section {
+    background-color: var(--primary-color);
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.interest_availability_container {
+    text-align: center;
+}
+
+.interest_availability_container h2 {
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 1000px) {
+    #interest_availability_section {
+        gap: 20px;
+        flex-direction: column;
+    }
+}

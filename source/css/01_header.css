@@ -49,6 +49,8 @@ header {
 
 .circle img {
     width: 100%;
+    height: 100%;
+    object-position: center;
 }
 
 nav {
@@ -166,5 +168,15 @@ label[for="toggle_button"] span {
     .circle {
         height: 250px;
         width: 250px;
+    }
+}
+
+@media(max-width: 350px) {
+    .header-text h1 {
+        font-size: 35px;
+    }
+
+    .header-text h2 {
+        font-size: 35px;
     }
 }

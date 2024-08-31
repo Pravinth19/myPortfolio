@@ -89,13 +89,14 @@ header {
 
 .animated-text h2 {
     font-size: 48px;
-    font-weight: 700;
+    color: var(--main-brand-color);
+    /* font-weight: 700;
     background: linear-gradient(90deg, transparent, var(--main-brand-color), var(--main-brand-color));
     background-size: 200%;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    animation: fillText 8s linear infinite;
+    animation: fillText 8s linear infinite; */
 }
 
 .circle {
